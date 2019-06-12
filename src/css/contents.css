@@ -1,0 +1,592 @@
+a {
+    color: #68bd00;
+    text-decoration: none;
+}
+p {
+    line-height: 1.9em;
+}
+p.notice1 {
+    margin: 10px 0 0 0;
+    color: #f00000;
+    font-size: 13px;
+}
+p.caption1 {
+    margin: 5px 0 0 0;
+    font-size: 11px;
+    line-height: 1.2em;
+}
+strong {
+    font-weight: normal;
+}
+.marker{
+    background-image: linear-gradient(to top,#bcef00 80%,transparent 80%);
+    background-repeat: no-repeat;
+    background-size: 0 40%;
+    background-position: 0 bottom;
+    transition: 0.7s;
+}
+.markerOn{
+    background-size: 100% 40%;
+}
+h2.normal1 {
+    font-family: "新ゴ B";
+    color: #ff5b00;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+}
+h3.normal1 {
+    font-family: "新ゴ B";
+    padding-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #ff5b00;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2em;
+    border-top: 1px solid #aaa;
+}
+h4 {
+    font-family: "新ゴ B";
+    font-size: 17px;
+    text-align: center;
+}
+h4.normal1 {
+    font-family: "新ゴ B";
+    font-size: 17px;
+    font-weight: bold;
+}
+h4.normal2 {
+    font-family: "新ゴ B";
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.2em;
+    background: #ff5b00;
+}
+.column1 {
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+
+.separator1 {
+    margin: 19px 0 20px 0;
+    height: 1px;
+    background: #aaa;
+}
+table.table1 {
+    margin: 30px 0 0 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+table.table1 tr th {
+    padding: 15px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: left;
+}
+table.table1 tr td {
+    padding: 15px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table.table2 {
+    margin: 30px 0 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+table.table2 tr th {
+    padding: 3px 10px;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: left;
+}
+table.table2 tr td {
+    padding: 3px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.main {
+    padding: 50px 0 80px 0;
+    width: 100%;
+}
+p.lead1 {
+    font-family: "新ゴ M";
+    font-size: 24px;
+    line-height: 1.4em;
+}
+p.lead2 {
+    font-family: "新ゴ M";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+p.lead3 {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 1.4em;
+    text-align: center;
+}
+p.lead4 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+p.lead4 strong {
+    color: #c12423;
+    font-size: 24px;
+}
+.narrow {
+    margin: 0 auto;
+    width: 82.8%;
+}
+
+.center_box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.center_box .text {
+    display: inline-block;
+    text-align: left;
+}
+
+.columns1 {
+    padding: 30px;
+    color: #fff;
+    background: #ff5b00;
+    border-radius: 10px;
+}
+.columns1 h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.columns1 h2 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.columns1 .lead {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+@media only screen and (max-width: 767px) {
+    p {
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+    .narrow {
+        width: 100%;
+    }
+    .main {
+        padding: 30px 0 50px 0;
+        width: 100%;
+    }
+    h2.normal1 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    h3.normal1 {
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    h4.normal1 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    h4.normal2 {
+        padding: 10px 10px;
+        font-size: 19px;
+    }
+    p.lead1 {
+        font-size: 15px;
+        line-height: 1.3em;
+        margin-bottom: 30px;
+    }
+    p.lead2 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    p.lead3 {
+        font-size: 15px;
+        text-align: left;
+    }
+    p.lead4 {
+        font-size: 19px;
+    }
+    p.lead4 strong {
+        font-size: 19px;
+    }
+    table.table1 {
+        margin: 20px 0 0 0;
+    }
+    table.table1 tr th {
+        padding: 5px 5px;
+        font-size: 12px;
+        line-height: 1.3em;
+    }
+    table.table1 tr td {
+        padding: 5px 5px;
+        font-size: 12px;
+        line-height: 1.3em;
+    }
+    table.table2 {
+        margin: 20px 0 0 0;
+        font-size: 12px;
+    }
+    table.table2 tr th {
+        font-size: 12px;
+    }
+    table.table2 tr td {
+        font-size: 12px;
+    }
+    .columns1 {
+        padding: 10px;
+    }
+    .columns1 h2 {
+        margin-top: 10px;
+        font-size: 21px;
+        text-align: center;
+    }
+    .columns1 h2 img {
+        margin-bottom: 5px;
+    }
+    .columns1 .lead {
+        font-size: 19px;
+    }
+    p.notice1 {
+        margin: 5px 0 0 0;
+        font-size: 11px;
+        text-align: left;
+    }
+}
+
+
+
+/* ページヘッダー
+================================================== */
+#ch_header {
+    margin-top: -168px;
+    margin-bottom: -30px;
+}
+#ch_header img {
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    #ch_header {
+        margin-top: 0px;
+    }
+}
+
+
+
+/* ABOUT US
+================================================== */
+.about_img2_bg {
+}
+@media only screen and (max-width: 767px) {
+    .about_img2_bg {
+    }
+}
+
+
+
+/* WORKS
+================================================== */
+.exsample_box1 {
+    width: 100%;
+}
+.exsample_box1 .box {
+    float: left;
+    width: 29.3333333333333333%;
+    margin: 50px 2% 0 2%;
+}
+.exsample_box1 .box p {
+    overflow: hidden;
+}
+.exsample_box1 .box p a img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+.exsample_box1 .box p a img:hover {
+    transform: scale(1.05);
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+@media only screen and (max-width: 767px) {
+    .exsample_box1 .box {
+        width: 46%;
+    }
+}
+
+
+
+
+/* プライス
+================================================== */
+h4.price_h4 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price {
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: right;
+    border-top: 1px dotted #333;
+}
+.price small {
+    font-size: 12px;
+}
+@media only screen and (max-width: 767px) {
+    h4.price_h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .price {
+        margin-top: 5px;
+        font-size: 17px;
+    }
+}
+
+
+
+.sample1 {
+    overflow:       hidden;
+    position:       relative;   /* 相対位置指定 */
+}
+.sample1 .caption {
+    font-size:      130%;
+    text-align:         center;
+    padding-top:        80px;
+    color:          #fff;
+}
+.sample1 .mask {
+    width:          100%;
+    height:         100%;
+    position:       absolute;   /* 絶対位置指定 */
+    top:            0;
+    left:           0;
+    opacity:        0;  /* マスクを表示しない */
+    background-color:   rgba(0,0,0,0.6);    /* マスクは半透明 */
+    -webkit-transition: all 0.2s ease;
+    transition:     all 0.2s ease;
+}
+.sample1:hover .mask {
+    opacity:        1;  /* マスクを表示する */
+}
+
+
+
+/* 問い合せ
+================================================== */
+#contact_form , #contact_confirm {
+    padding: 20px 20px 50px 20px;
+}
+#contact_form table , #contact_confirm table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    margin-bottom: 30px;
+}
+#contact_form table tr th {
+    width: 30%;
+    padding: 10px;
+    font-size: 13px;
+    text-align: left;
+    vertical-align: middle;
+}
+#contact_confirm table tr th {
+    width: 25%;
+    padding-left: 5px;
+    font-size: 13px;
+    text-align: left;
+    background: #fff;
+}
+#contact_form table tr th span.none {
+    margin-right: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
+}
+#contact_form table tr th span.req {
+    margin-right: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
+    color: #fff;
+    background: #ff6600;
+}
+#contact_form table tr th span.any {
+    margin-right: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
+    color: #fff;
+    background: #999;
+}
+#contact_confirm table tr td {
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+#contact_form table tr td.lib2 {
+    vertical-align: middle;
+}
+#contact_form table tr td.lib2 input , #contact_form table tr td.lib2 textarea {
+    margin: 0 0 0 5px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+#contact_form table tr td.lib2 input:hover , #contact_form table tr td.lib2 textarea:hover {
+    border: 1px solid #999;
+}
+#contact_form table tr td.lib2 input:focus , #contact_form table tr td.lib2 textarea:focus {
+    border: 1px solid #444;
+    outline: none;
+}
+#contact_form table tr td.lib2 select {
+    width: 350px;
+    height: 36px;
+    margin-left: 5px;
+    color: #fff;
+    background: #666;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+#contact_form .short {
+    width: 80%;
+}
+#contact_form .long {
+    width: 94%;
+}
+#contact_form .long2 {
+    width: 94%;
+    height: 220px;
+}
+.confirm {
+    margin: 0 0 0 0;
+}
+#error {
+    padding: 0 0 0 0;
+    margin: 20px 0 0 0;
+    color: #fc0000;
+    font-weight: bold;
+}
+#error ul li {
+    margin: 0 0 0 2em;
+    list-style: disc;
+}
+
+.form_btn {
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+    padding: 18px 0;
+    color: #000;
+    font-size: 13px;
+    line-height: 1.2em;
+    text-align: center;
+    border: 1px solid #000;
+    box-sizing:border-box;
+
+
+}
+.form_btn:hover {
+    cursor: pointer;
+    color: #000;
+    background: #68bd00;
+}
+.form_btn:focus , .form_btn:active {
+    outline: none;
+}
+
+.form_btn2 a {
+    display: block;
+    width: 300px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background: #002758;
+}
+.form_btn2 a:hover {
+    cursor: pointer;
+    background: #777777;
+}
+
+@media only screen and (max-width: 767px) {
+    #contact_form , #contact_confirm {
+        padding: 5px 5px 5px 5px;
+    }
+    #contact_form table tr th , #contact_confirm table tr th {
+        width: 30%;
+        padding: 5px 0;
+        font-size: 10px;
+        line-height: 1.4em;
+    }
+    #contact_form table tr td , #contact_confirm table tr td {
+        font-size: 11px;
+        line-height: 1.4em;
+    }
+    #contact_form table tr th span.req {
+        padding: 1px 3px;
+        font-size: 9px;
+    }
+    #contact_form table tr th span.any {
+        padding: 1px 3px;
+        font-size: 9px;
+    }
+    #contact_form table tr td.lib2 input , #contact_form table tr td.lib2 textarea {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    #contact_form .short {
+        width: 95%;
+    }
+    #contact_form .long {
+        width: 95%;
+    }
+    #contact_form .long2 {
+        width: 95%;
+        height: 200px;
+    }
+    #contact_form table tr td.lib2 select {
+        width: 95%;
+        height: 30px;
+        font-size: 12px;
+    }
+    .main_contact {
+        margin-top: 0px;
+        padding: 0 0 50px 0;
+    }
+    .form_btn {
+        width: 100%;
+        font-size: 15px;
+    }
+    .form_btn2 a {
+        width: 100%;
+        font-size: 15px;
+    }
+}
